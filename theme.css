@@ -1,0 +1,113 @@
+header, body, h1, h2, p {
+  margin: 0px;
+  font-family: Georgia, Calibri, sans-serif;
+}
+
+
+p {
+	
+	
+}
+
+h1 {
+	
+	font-family: Gothic;
+}
+
+header {
+	width: 100%; text-align: center;
+}
+
+html {
+	background: black; 
+	color: white;
+	background-image: url("images/darkspace.jpg");
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9) ), url('images/darkspace.jpg');
+	
+}
+
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+
+ul.tab {
+    list-style-type: none;
+    display: table;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+        width: 100%;
+}
+
+/* Float the list items side by side */
+ul.tab li {
+	/*float: left;*/
+	display: table-cell; 
+	}
+
+/* Style the links inside the list items */
+ul.tab li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+    
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {color: pink;}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {color: red;}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;/* Stay in place */
+    z-index: 1; /* Sit on top */
+    /*left: 0;
+    top: 0;*/
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+    
+   
+}
+
+
+/* The Close Button */
+.close {
+    color: #000;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    z-index: 2; 
+    
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.contactTB {
+	 
+	 width: 50%; 
+	 margin: 15px; 
+	
+	
+}
+	
+}

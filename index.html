@@ -1,0 +1,174 @@
+<!--DOCTYPE html-->
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="theme.css">
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+		<script src="scripts.js"></script>
+	</head>
+	
+	<header style="">
+		<ul class="tab">
+			<li><a href="#" onclick="openAboutModal()">About</a></li>
+			<li><a href='#' onclick="openContactModal()">Contact Me</a></li>
+			<li><a href='#' onclick="openHelpModal()">Help</a></li>
+		</ul>
+		<div class="modal" id="aboutModal">
+			<div style=" background: #fff; width: 30%; color: black; "> 
+				<img src="images\Shop-Close-Icon.ico" onclick="closeModal()" class="close" style="height: 50px; width: 50px;">
+				<div style="font-weight: bold; margin-left: 45px; padding-top: 25px;">Back in the day:</div>
+				<p style="width: 95%; padding: 20px">
+				I was born in Boston, Mass and raised in Nashua, NH after the age of five. After High School at Oyster River in 
+				Durham, NH I went to college at Umass Lowell, SUNY Buffalo and finished my Bachelor's at 
+				Southern New Hampshire Univeristy.
+				</p>
+				<b>Where I am today:</b>
+				<p style="width: 95%; padding: 20px;">
+					I live in very southern Maine with my wife and 3 kids. I love the winter time the most but do miss open roads for
+					bking and longboarding. I code as often as I can, which seems to get less and less each day, and going for my Master's 
+					keep my mind busy. My youngest daughter has autism and we are pretty active with that. My wife, her sister and father are 
+					running in the Boston Marathon at  <a href="https://www.crowdrise.com/flutieboston2017/fundraiser/christyvarney">RunWithEllie</a>
+				</p>
+		 	</div>
+		</div>
+		<div class="modal" id="contactModal">
+			<div style="width: 30%; margin-left: 38%; background: white; color: black; "">
+				<!--  <span class="close" onclick="closeModal()">x</span> -->
+				<img src="images\Shop-Close-Icon.ico" onclick="closeModal()" class="close" style="height: 75px; width: 75px;">
+			 <div style="text-align: left; padding-top: 25px;">
+				<span style="margin-left: 15px">Your name</span><br>
+    			<input type="text" id="cf_name" class="contactTB"><br>
+    			<span style="margin-left: 15px">Your e-mail</span><br>
+    			<input type="text" id="cf_email" class="contactTB"><br>
+    		</div> 
+    			Message<br>
+    			<textarea id="cf_message" style="width: 90%; height: 150px; margin: 5px;"></textarea>
+    				<button onclick="contactSubmit()">Submit</button>
+    				<button onclick="contactCancel()" style="margin: 25px;">Cancel</button><br>or<br><br>
+    				
+    				<div style="padding-bottom: 15px;">
+    					<a href="mailto:mydraal56@hotmail.com" style="text-align: center; font-size: 25px;">Email Me!</a>
+    				</div>
+    				
+				
+			</div>					
+		</div>
+		<div class="modal" id="helpModal">
+			<div style="width: 30%; margin-left: 69%; background: red;">
+			<img src="images\Shop-Close-Icon.ico" onclick="closeModal()" class="close" style="height: 75px; width: 75px;">
+				<div style="padding: 20px;">
+					<span>This is probably a mess! But now a helpful Mess!</span><br>
+					<a href="https://www.facebook.com/Ellie-Inc-1890677921163219/">Ellie Inc</a>
+				</div>
+			</div>		
+		</div>
+		<img class="" style="margin-right: 180px; float: right;" src="images/jonsimg3.png"/>
+		<h1 style="padding-top: 80px; font-size: 128px;">Jonathan Dunn</h1>
+		
+		
+	</header>
+	<body>
+		<!-- JavaScript SDK - Required for Facebook embed after <body> tag -->
+		<!--  <div id="fb-root"></div>
+		<script>(function(d, s, id) {
+  			var js, fjs = d.getElementsByTagName(s)[0];
+  			if (d.getElementById(id)) return;
+  			js = d.createElement(s); js.id = id;
+  			js.src = "//connect.facebook.net/en_US/all.js";
+  			fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));</script>
+			-->
+		
+		<p style="margin: 50px; padding-left: 175px;	width: 50%; ">
+		<span style="font-weight: bold;">Greetings!</span><br><br>
+			&nbsp;&nbsp;&nbsp;&nbsp;This site is a place for me to link various online activities such as code repos, social media links and other business
+			and hobbies. Mostly, this is a place where I can create a bunch of funky CSS and JavaScript(eventually) and play with the AWS 
+			instances and S3 storage. S3 will be hosting this for the beginning anyway. We shall see what traffic causes to happen in the 
+			future. Probably just take down the site and have a good cry but maybe I can get it to do something. <br><br>
+			&nbsp;&nbsp;&nbsp;&nbsp;So now this site has come along a bit. I have modals popping up when the menu bar items are clicked and I have the form for email 
+			even though it is not hooked up to anything on the back end yet. That is some fun for another day. Not sure what API I could use for
+			that. I did some work with one back at Lucas but I can't remember the name. Then I get distracted moving a title word about 45px over just 
+			right and the whole thing gets moved back another week or so. Such is the way when this is still mostly a hobby. I have replaced video games 
+			with this which is good for now but still no idea where this could go in the long run. I'll get it figured out to something, I'm sure.  
+			
+			
+		</p>
+		
+		<ul style="padding-top: 150px; font-weight: bold;">
+			<li>Skills</li>
+			<ul style="font-weight: normal;">
+				<li>This is a first row</li>
+				<li>This is a second row</li>
+				<li>This is a third row</li>
+			</ul>
+		</ul>
+			
+		
+		</body>
+		<!--  <div class="fb-page" 
+			data-href="https://www.facebook.com/Ellie-Inc-1890677921163219/" 
+			data-tabs="timeline" 
+			data-width="500" 
+			data-height="900" 
+			data-small-header="false" 
+			data-adapt-container-width="true" 
+			data-hide-cover="false" 
+			data-show-facepile="true">
+				<blockquote cite="https://www.facebook.com/Ellie-Inc-1890677921163219/" 
+					class="fb-xfbml-parse-ignore">
+						<a href="https://www.facebook.com/Ellie-Inc-1890677921163219/">Ellie Inc</a>
+				</blockquote>
+		</div>-->
+		
+		<!-- <div class="fb-page" 
+			data-href="https://www.facebook.com/Ellie-Inc-1890677921163219/" 
+			data-tabs="timeline" 
+			data-width="500" 
+			data-height="900" 
+			data-small-header="false" 
+			data-adapt-container-width="false" 
+			data-hide-cover="false" 
+			data-show-facepile="true">
+				<blockquote cite="https://www.facebook.com/Ellie-Inc-1890677921163219/" 
+				class="fb-xfbml-parse-ignore">
+					<a href="https://www.facebook.com/Ellie-Inc-1890677921163219/">Ellie Inc</a>
+				</blockquote>
+		</div>  
+		
+		<div class="fb-page" 
+  data-href="https://www.facebook.com/facebook"
+  data-width="380" 
+  data-hide-cover="false"
+  data-show-facepile="false" 
+  data-show-posts="false"></div>
+  
+	</body>
+	<body> -->
+		<!-- Load Facebook SDK for JavaScript -->
+		<!--  
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your embedded comments code -->
+<!--  
+<div class="fb-comment-embed"
+   data-href="https://www.facebook.com/zuck/posts/10102735452532991?comment_id=1070233703036185"
+   data-width="500"></div>
+   
+   
+   
+	</body>
+		 -->
+		
+		
+		
+	
+	
+	
+
+</html>
