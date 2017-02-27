@@ -98,7 +98,7 @@ function loadDoc() {
 	     document.getElementById("demo").innerHTML = this.responseText;
 	    }
 	  };
-	  xhttp.open("GET", "http://www.jonathandunn.org/ajax_info.txt", true);
+	  xhttp.open("GET", "https://mydraal56.github.io/ajax_info.txt", true);
 	  //test
 	  xhttp.send();
 	}
