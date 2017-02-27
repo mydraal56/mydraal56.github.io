@@ -99,6 +99,7 @@ function loadDoc() {
 	    }
 	  };
 	  xhttp.open("GET", "http://www.jonathandunn.org/ajax_info.txt", true);
+	  //test
 	  xhttp.send();
 	}
 
