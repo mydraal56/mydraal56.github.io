@@ -109,5 +109,11 @@ ul.tab li a:focus, .active {color: red;}
 	
 	
 }
+
+.myImg {
 	
+	 width: 200px; 
+	 height: auto; 
 }
+	
+
