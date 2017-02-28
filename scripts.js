@@ -103,6 +103,33 @@ function loadDoc() {
 	  xhttp.send();
 	}
 
+function testLocal() {
+	
+	console.log('in testLocal');
+	var xhttp = new XMLHttpRequest();
+	  xhttp.onreadystatechange = function() {
+	    if (this.readyState == 4 && this.status == 200) {
+	     //document.getElementById("demo").innerHTML = this.responseText;
+	     var data = JSON.parse(this.responseText);
+	     console.log(data);
+	    }
+	  };
+	  xhttp.open("GET", "http://localhost:80/datacall", true);
+	  //test
+	  xhttp.send();
+	
+}
+
+function jqueryTest() {
+	
+	$.get({
+		url: 'http://localhost:80/datacall',
+		data: {},
+		success: function(evt){console.log(evt);}
+	
+	});
+}
+
 function jsTest(){
 	alert('this is a test');
 }
