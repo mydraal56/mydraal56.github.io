@@ -139,6 +139,7 @@ ul.tab li a:focus, .active {color: red;}
 		font-size: 145px; 
 		padding: 0px; 
 		text-align: center; 
+		 
 	}
 
 	.myImg {
@@ -161,9 +162,11 @@ ul.tab li a:focus, .active {color: red;}
 	
 	.mainBodyText {
 		font-size: 45px;
-		margin: 0px;  
+		margin: 20px; 
 		padding: 4%; 
 		width: 100%; 
+	
+		text-align: center; 
 		
 	}
 	
@@ -173,7 +176,8 @@ ul.tab li a:focus, .active {color: red;}
 		margin-top: 5%; 
 		font-size: 115px;
 		display: block; 
-		text-align: center;  
+		text-align: center; 
+		
 	}
 }
 
