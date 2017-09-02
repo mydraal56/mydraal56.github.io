@@ -12,7 +12,8 @@ p {
 
 h1 {
 	
-	
+	padding-top: 80px; 
+	font-size: 128px;	
 }
 
 header {
@@ -115,6 +116,70 @@ ul.tab li a:focus, .active {color: red;}
 	
 	 width: 200px; 
 	 height: auto; 
+	 margin-right: 180px; 
+	 float: right;
 }
+
+.mainBodyText {
+	
+	margin: 50px; 
+	padding-left: 175px;	
+	width: 50%;
+}
+
+.greeting {
+	
+	font-weight: bold;
+}
+
+@media screen and (max-device-width : 500px) {
+	
+	.name {
+	
+		font-size: 145px; 
+		padding: 0px; 
+		text-align: center; 
+		 
+	}
+
+	.myImg {
+		float: left;
+		width: 25%;
+		margin: 0px;   
+		z-index: 0;
+	 }
+	 
+	 .tab {
+	 	
+	 }
+	
+	
+	
+	ul.tab li a  {
+		font-size: 75px;
+		color: grey; 
+	}
+	
+	.mainBodyText {
+		font-size: 45px;
+		margin: 20px; 
+		padding: 4%; 
+		width: 100%; 
+	
+		text-align: center; 
+		
+	}
+	
+	.greeting {
+		
+		
+		margin-top: 5%; 
+		font-size: 115px;
+		display: block; 
+		text-align: center; 
+		
+	}
+}
+
 	
 

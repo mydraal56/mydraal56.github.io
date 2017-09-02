@@ -10,7 +10,7 @@ function testClick()
 function openAboutModal()
 {
 	var popUp = document.getElementById("contactModal");
-	debugger;
+
 	if(popUp.style.display == 'block')
 	{
 		popUp.style.display = 'none';
@@ -24,7 +24,7 @@ function openAboutModal()
 	
 	
 	var modal = document.getElementById("aboutModal");
-	debugger; 
+	 
 	modal.style.display = 'block';
 }
 
@@ -44,7 +44,7 @@ var popUp = document.getElementById("aboutModal");
 			popUp.style.display = "none";
 	}
 	var modal = document.getElementById("contactModal");
-	debugger; 
+	 
 	modal.style.display = 'block';
 }
 
@@ -64,7 +64,7 @@ var popUp = document.getElementById("aboutModal");
 			popUp.style.display = "none";
 	}
 	var modal = document.getElementById("helpModal");
-	debugger; 
+	 
 	modal.style.display = 'block';
 }
 
