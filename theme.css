@@ -43,7 +43,7 @@ ul.tab {
     margin: 0;
     padding: 0;
     overflow: hidden;
-        width: 100%;
+    width: 100%;
 }
 
 /* Float the list items side by side */
@@ -114,10 +114,10 @@ ul.tab li a:focus, .active {color: red;}
 
 .myImg {
 	
-	 width: 200px; 
-	 height: auto; 
+	 
 	 margin-right: 180px; 
 	 float: right;
+	
 }
 
 .mainBodyText {
@@ -125,11 +125,14 @@ ul.tab li a:focus, .active {color: red;}
 	margin: 50px; 
 	padding-left: 175px;	
 	width: 50%;
+	line-height: 2.5em;
 }
 
 .greeting {
 	
 	font-weight: bold;
+	color: red; 
+	font-size: 2.8em;
 }
 
 @media screen and (max-device-width : 500px) {
@@ -149,9 +152,7 @@ ul.tab li a:focus, .active {color: red;}
 		z-index: 0;
 	 }
 	 
-	 .tab {
-	 	
-	 }
+	 
 	
 	
 	
